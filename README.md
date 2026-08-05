@@ -12,6 +12,10 @@ week01_landscape/
 weekly/
 - Wk-01-Recap.md
 
+## Week 1 Summary
+
+During Week 1, I explored InGen Dynamics' AI ecosystem, including Origami AI, PIC 2.0, and six Physical AI platforms. I also reviewed transferable analytical methods from my environmental science background, verified the required Python environment, and reflected on similarities between my previous research datasets and InGen's platform data.
+
 ## Topics
 
 - Physical AI
@@ -21,3 +25,15 @@ weekly/
 - Dashboard Development
 - Python
 - SQL
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Plotly
+- SQLite
+- Tableau Public
+- GitHub

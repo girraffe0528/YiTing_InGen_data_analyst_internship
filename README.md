@@ -1,19 +1,24 @@
 # YiTing_InGen_data_analyst_internship
-# InGen Dynamics Data Analyst Internship
+# InGen Data Analyst Internship
 
-This repository contains my deliverables for a 9-week Data Analyst Internship focused on Physical AI, robot telemetry, machine learning, time-series analysis, anomaly detection, and dashboard development.
+This repository contains my deliverables for the InGen Dynamics Data Analyst Internship.
 
 ## Repository Structure
 
-- `week01_landscape/`  
-  InGen platform landscape, data analytics methods primer, and environment verification notebook.
+week01_landscape/
+- W01_InGen_DA_Landscape.md
+- W01_DA_Methods_Primer.md
+- W01_env_check.ipynb
 
-- `weekly/`  
-  Weekly internship recaps and reflections.
+weekly/
+- Wk-01-Recap.md
 
-## Week 1 Deliverables
+## Topics
 
-- `W01_InGen_DA_Landscape.md`
-- `W01_DA_Methods_Primer.md`
-- `W01_env_check.ipynb`
-- `Wk-01-Recap.md`
+- Physical AI
+- Data Analytics
+- Time-Series Analysis
+- Classification
+- Dashboard Development
+- Python
+- SQL

@@ -1,0 +1,14 @@
+# Data Analytics Methods Primer
+My previous research in environmental science and data analytics has provided a strong foundation for applying analytical methods in Physical AI. Although the application domains are different, the same analytical techniques can be transferred to InGen's AI platforms. These methods enable data-driven decision-making by transforming raw observations into meaningful insights across different application domains.
+
+| Method | Previous Research Experience | Application in InGen |
+|--------|-------------------------------|----------------------|
+| **Exploratory Data Analysis (EDA)** | Explored environmental and transportation datasets to identify patterns, evaluate data quality, and prepare data for modeling. | Analyze telemetry, operational, health, and learning datasets generated across InGen platforms to identify trends, anomalies, and operational insights before developing analytical models. |
+| **Time-Series Analysis** | Applied time-series analysis to precipitation and atmospheric datasets to identify long-term climate variability and El Niño patterns. | Monitor robot telemetry, battery performance, healthcare observations, and operational efficiency by identifying long-term trends, seasonal behaviors, and abnormal changes over time. |
+| **Classification** | Built Logistic Regression and Random Forest models to classify traffic accident severity. | Classify security events, detect abnormal robot behaviors, identify high-risk healthcare situations, and support AI-driven decision-making across multiple platforms. |
+| **Data Visualization & Dashboard Development** | Developed Tableau dashboards to visualize accident severity and support decision-making. | Create dashboards that summarize fleet operations, robot performance, healthcare monitoring, learning progress, and operational KPIs to support real-time decision-making. |
+| **Statistical Modeling & Correlation Analysis** | Applied correlation analysis and linear regression to investigate climate relationships and precipitation patterns. | Evaluate relationships among operational variables, identify performance drivers, support predictive analytics, and improve AI system performance through data-driven analysis. |
+
+## Key Takeaways
+
+My previous research experience demonstrates that analytical methods are transferable across domains. While InGen focuses on Physical AI rather than environmental science, the same analytical skills can be applied to transform sensor data into meaningful insights that support intelligent decision-making. This transfer of analytical knowledge provides a strong foundation for applying data analytics techniques to robotics, healthcare, education, security,and intelligent automation.

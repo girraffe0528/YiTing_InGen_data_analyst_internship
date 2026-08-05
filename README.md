@@ -20,11 +20,10 @@ During Week 1, I explored InGen Dynamics' AI ecosystem, including Origami AI, PI
 
 - Physical AI
 - Data Analytics
+- Robot Telemetry
 - Time-Series Analysis
-- Classification
+- Machine Learning
 - Dashboard Development
-- Python
-- SQL
 
 ## Technologies
 

@@ -1,4 +1,3 @@
-# YiTing_InGen_data_analyst_internship
 # InGen Data Analyst Internship
 
 This repository contains my deliverables for the InGen Dynamics Data Analyst Internship.

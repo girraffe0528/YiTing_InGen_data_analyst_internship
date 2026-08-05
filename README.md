@@ -5,12 +5,12 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 ## Repository Structure
 
 week01_landscape/
-- W01_InGen_DA_Landscape.md
-- W01_DA_Methods_Primer.md
-- W01_env_check.ipynb
+├── W01_InGen_DA_Landscape.md
+├── W01_DA_Methods_Primer.md
+└── W01_env_check.ipynb
 
 weekly/
-- Wk-01-Recap.md
+└── Wk-01-Recap.md
 
 ## Week 1 Summary
 

@@ -11,10 +11,7 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 
 ### weekly/
 - Wk-01-Recap.md
-
-## Week 1 Summary
-
-During Week 1, I explored InGen Dynamics' AI ecosystem, including Origami AI, PIC 2.0, and six Physical AI platforms. I also reviewed transferable analytical methods from my environmental science background, verified the required Python environment, and reflected on similarities between my previous research datasets and InGen's platform data.
+- Wk-02-Recap.md
 
 ## Topics
 

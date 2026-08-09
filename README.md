@@ -10,7 +10,7 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - W01_env_check.ipynb
 
 ### week02_eda/
-- W01_InGen_DA_Landscape.md
+- W02_InGen_DA_Landscape.md
 - W02_Telemetry_EDA.ipynb
 
 ### weekly/

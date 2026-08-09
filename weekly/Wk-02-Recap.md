@@ -1,4 +1,4 @@
-# Week 2 Recap — From Atmospheric Data to Rover Telemetry
+# Week 2 Recap
 
 This week's exploratory data analysis of the Aido Rover telemetry dataset felt more familiar than I initially expected. Although atmospheric observations and robotic telemetry describe very different systems, the basic data analysis process was similar to the approach I used when working with atmospheric pressure-level datasets at NTU.
 

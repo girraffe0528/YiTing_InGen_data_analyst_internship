@@ -1,4 +1,4 @@
-# Week 2 EDA Memo — Aido Rover Synthetic Telemetry
+# Week 2 EDA Memo
 
 ## Overview
 
@@ -20,13 +20,13 @@ The strong wheel-to-wheel relationships are expected because all four wheels res
 
 **InGen operational implication:** Strong agreement among wheel torque channels provides a useful baseline for drivetrain health. Persistent divergence in one wheel relative to the others could indicate a motor, wheel, drivetrain, or sensor problem and could be used as an early maintenance alert.
 
-## Finding 3 — Battery SoC and Wheel Torque Are Statistically Stationary
+## Finding 3 — Statistical Stationarity Does Not Necessarily Indicate Healthy Operation
 
-The time-series analysis for AIDO_001 (Figure 11) shows statistically stationary behavior for both battery SoC and front-left wheel torque. The Augmented Dickey-Fuller test produced an **ADF statistic of -8.7546 with p < 0.001** for battery SoC and an **ADF statistic of -79.6041 with p < 0.001** for front-left wheel torque. In both cases, the null hypothesis of a unit root is rejected at the 5% significance level.
+The time-series analysis for AIDO_003 (Figure 11) shows different operational behavior between battery SoC and front-left wheel torque. Battery SoC declines from approximately 80% to near 0% by around July 6 and remains at a very low level afterward, while wheel torque continues to fluctuate around its normal operating range with occasional large spikes. Despite this visual pattern, the Augmented Dickey-Fuller test produced an **ADF statistic of -8.7546 with p < 0.001** for battery SoC and **-79.6041 with p < 0.001** for front-left wheel torque. The unit-root null hypothesis is therefore rejected for both series.
 
-The particularly strong stationarity of wheel torque is consistent with repeated fluctuations around mode-dependent operating levels. Battery SoC is also statistically stationary despite discharge and recharge behavior, partly because operational modes can switch frequently in the synthetic dataset.
+This result demonstrates that statistical stationarity should not be interpreted as operational stability. In particular, the battery series exposes a limitation of the synthetic data generation process: charging is assigned independently of battery SoC rather than being triggered by low battery levels. Because discharge modes occur more frequently than charging, many observations remain near the lower battery boundary for much of the simulation.
 
-**InGen operational implication:** Stable statistical baselines make abnormal behavior easier to detect. Changes in the stationarity or typical operating range of battery and torque telemetry could therefore provide early indicators of battery degradation, mechanical problems, or unusual rover behavior.
+**InGen operational implication:** Statistical tests should be combined with visual and operational checks when monitoring rover health. A stationary telemetry signal can still represent undesirable behavior, such as a battery remaining near 0%. Battery thresholds and charging-state logic should therefore be monitored alongside statistical anomaly indicators.
 
 ## Conclusion
 

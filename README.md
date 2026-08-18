@@ -30,10 +30,23 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - Robot Telemetry
 - Time-Series Analysis
 - Data Quality & Anomaly Analysis
+- Feature Engineering
 - Machine Learning
-- Predictive Modeling
+- Classification Modeling
+- Feature Importance Analysis
 - Data Visualization
 - Dashboard Development
+
+## Methods
+
+- Random Forest
+- Logistic Regression
+- Stratified Train/Test Split
+- Median Imputation
+- Feature Standardization
+- Multiclass Classification
+- Permutation Importance
+- Model Evaluation (Accuracy, Macro-F1, ROC-AUC)
 
 ## Technologies
 

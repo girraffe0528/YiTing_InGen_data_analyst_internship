@@ -1,0 +1,11 @@
+# Week 3 Recap
+This week, I used the synthetic Aido Rover telemetry generated in Week 2 to build classification models for predicting four operational modes: PATROL, ALERT, CHARGING, and FAULT. Before modeling, I created additional features including battery state-of-charge rolling statistics, GPS-derived speed, IMU magnitude, and a wheel imbalance score calculated from the four wheel torque measurements.
+
+I first established majority-class and random baselines. The majority baseline achieved 69.97% accuracy but only 0.2058 macro-F1, showing why accuracy alone can be misleading for this imbalanced dataset. The Random Forest performed substantially better, achieving 96.72% accuracy, 0.9327 macro-F1, and 0.9880 macro ROC-AUC. Logistic Regression achieved 88.39% accuracy and 0.7384 macro-F1. The largest Logistic Regression error pattern was between ALERT and PATROL, while the Random Forest separated these modes much more effectively.
+
+Although Random Forest performed strongly overall, FAULT remained its most difficult class, with a recall of 0.7970. This means that some actual FAULT observations were still classified as other operational modes, particularly PATROL. This result highlights why per-class performance is important when evaluating a model for operational monitoring.
+
+Feature importance analysis showed that wheel-related telemetry provided the strongest predictive information. Impurity-based importance ranked the individual wheel torque measurements highly, while permutation importance identified the engineered `wheel_imbalance` feature as the most influential predictor. I then performed a separate FAULT-versus-PATROL analysis, where `wheel_imbalance` again produced the largest decrease in FAULT F1-score when permuted.
+
+This result is operationally plausible because a large difference in torque across the Rover's wheels could be associated with uneven loading, traction problems, drivetrain issues, or other abnormal mechanical behavior. For a fleet operator, wheel imbalance could therefore be a useful signal for identifying observations that warrant closer inspection. An important limitation is that the telemetry is synthetic, so this relationship reflects the simulated data-generating assumptions and would need to be validated using real Rover telemetry before being used operationally.
+

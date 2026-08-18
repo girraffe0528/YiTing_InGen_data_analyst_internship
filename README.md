@@ -26,9 +26,13 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 
 - Physical AI
 - Data Analytics
+- Exploratory Data Analysis (EDA)
 - Robot Telemetry
 - Time-Series Analysis
+- Data Quality & Anomaly Analysis
 - Machine Learning
+- Predictive Modeling
+- Data Visualization
 - Dashboard Development
 
 ## Technologies
@@ -41,4 +45,5 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - Plotly
 - SQLite
 - Tableau Public
-- GitHub
+- Jupyter Notebook
+- Git & GitHub

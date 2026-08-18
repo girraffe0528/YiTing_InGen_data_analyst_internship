@@ -39,14 +39,14 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 
 ## Methods
 
+- Exploratory Data Analysis
+- Feature Engineering
+- Time-Series Analysis
 - Random Forest
 - Logistic Regression
-- Stratified Train/Test Split
-- Median Imputation
-- Feature Standardization
 - Multiclass Classification
-- Permutation Importance
-- Model Evaluation (Accuracy, Macro-F1, ROC-AUC)
+- Feature Importance & Permutation Importance
+- Model Evaluation
 
 ## Technologies
 

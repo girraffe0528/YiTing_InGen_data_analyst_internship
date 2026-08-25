@@ -17,10 +17,15 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - W03_Classification_Model.ipynb
 - W03_Feature_Importance_Analysis.ipynb
 
+### week04_model_analysis/
+- W04_Model_Analysis_Memo.md
+- W04_Model_Robustness_Analysis.ipynb
+
 ### weekly/
 - Wk-01-Recap.md
 - Wk-02-Recap.md
 - Wk-03-Recap.md
+- Wk-04-Recap.md
 
 ## Topics
 

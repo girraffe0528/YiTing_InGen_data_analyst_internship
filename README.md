@@ -25,12 +25,17 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - W05_TimeSeries_Memo.md
 - W05_TimeSeries_Analysis.ipynb
 
+### week06_anomaly_hypothesis/
+- W06_Anomaly_Detection.ipynb
+- W06_Hypothesis_Tests.ipynb
+
 ### weekly/
 - Wk-01-Recap.md
 - Wk-02-Recap.md
 - Wk-03-Recap.md
 - Wk-04-Recap.md
 - Wk-05-Recap.md
+- Wk-06-Recap.md
 
 ## Topics
 

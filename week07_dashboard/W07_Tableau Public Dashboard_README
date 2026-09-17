@@ -1,0 +1,22 @@
+# Week 7 Fleet Analytics Dashboard
+
+## Tableau Public Dashboard
+
+The interactive Aido Rover Fleet Analytics Dashboard is published on Tableau Public:
+
+https://public.tableau.com/shared/2RPD4D3YG?:display_count=n&:origin=viz_share_link
+
+## Dashboard Panels
+
+The dashboard contains four analytical panels:
+
+1. Fleet Overview
+2. Time-Series Monitor
+3. Classification Insights
+4. Anomaly Alert Summary
+
+The dashboard integrates analytical results from Weeks 2–6, including exploratory data analysis, time-series forecasting, Random Forest classification, feature importance analysis, and anomaly detection.
+
+## Tableau Workbook
+
+The Tableau workbook used to create the dashboard is included in this folder as `Aido Rover Fleet Analytics Dashboard.twb`.

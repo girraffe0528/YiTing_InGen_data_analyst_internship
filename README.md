@@ -29,6 +29,11 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - W06_Anomaly_Detection.ipynb
 - W06_Hypothesis_Tests.ipynb
 
+### week07_dashboard/
+- W07_Aido Rover Fleet Analytics Dashboard.twb
+- W07_Dashboard_Memo.md
+- README.md
+
 ### weekly/
 - Wk-01-Recap.md
 - Wk-02-Recap.md
@@ -36,6 +41,7 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - Wk-04-Recap.md
 - Wk-05-Recap.md
 - Wk-06-Recap.md
+- Wk-07-Recap.md
 
 ## Topics
 
@@ -71,6 +77,13 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - Multiclass Classification
 - Feature Importance & Permutation Importance
 - Model Evaluation
+- Time-Series Forecasting
+- Holt Exponential Smoothing
+- Anomaly Detection
+- Isolation Forest
+- Statistical Threshold Detection
+- Hypothesis Testing
+- Dashboard Design & Data Visualization
 
 ## Technologies
 
@@ -79,6 +92,7 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - NumPy
 - Scikit-learn
 - Statsmodels
+- SciPy
 - Matplotlib
 - Plotly
 - SQLite

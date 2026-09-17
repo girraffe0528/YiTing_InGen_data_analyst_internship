@@ -1,0 +1,11 @@
+# Week 7 Recap
+
+The most difficult analytical finding from Weeks 2–6 to communicate effectively in the dashboard was the relationship between Battery State of Charge (SoC), forecasting, and anomaly detection. These results came from two different stages of the internship. Week 5 focused on time-series forecasting, while Week 6 focused on detecting unusual telemetry behavior. Although both analyses involved battery behavior, their outputs had different time resolutions and purposes, which made combining them into one clear visualization challenging.
+
+The Week 5 analysis produced an hourly fleet-average Battery SoC time series and a Holt Exponential Smoothing forecast for the final seven-day test period. The forecast also included a 95% prediction interval. In contrast, the Week 6 battery anomaly results were generated from rover-level telemetry recorded at five-minute intervals. Plotting every anomaly observation directly on the Battery SoC chart would have created too many overlapping markers and made the forecast difficult to interpret.
+
+To solve this problem, I aggregated the Week 6 battery anomaly observations to the hourly level so that they matched the resolution of the Week 5 time-series analysis. I then designed the Tableau Time-Series Monitor with the actual Battery SoC, Holt forecast, and prediction interval in the main chart, while displaying hourly battery anomaly activity in a separate aligned view below it. This preserved the relationship between the two analyses without overcrowding the primary visualization.
+
+Data visualization principles also influenced this design choice. I focused on presenting one clear analytical message at a time, maintaining consistent time scales, using clear labels, and reducing unnecessary visual complexity. Finding-based chart titles were used to communicate the main takeaway directly, while the aligned anomaly view allowed users to compare anomaly activity with battery behavior across the same monitoring period.
+
+This experience showed me that dashboard development is not simply about combining analytical outputs. Effective visualization requires deciding which information should be emphasized, how different analytical results should be connected, and how much detail users need to make the findings understandable and operationally useful.

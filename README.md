@@ -34,6 +34,11 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - W07_Dashboard_Memo.md
 - README.md
 
+### week08_capstone/
+- W08_Capstone_Report.pdf
+- W08_Capstone_Report.docx
+- W08_Retrospective.md
+
 ### weekly/
 - Wk-01-Recap.md
 - Wk-02-Recap.md
@@ -42,6 +47,7 @@ This repository contains my deliverables for the InGen Dynamics Data Analyst Int
 - Wk-05-Recap.md
 - Wk-06-Recap.md
 - Wk-07-Recap.md
+- Wk-08-Final-Recap.md
 
 ## Topics
 
